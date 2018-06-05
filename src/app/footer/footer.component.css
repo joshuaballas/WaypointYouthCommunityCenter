@@ -1,0 +1,28 @@
+.footer-icon {
+  vertical-align: middle;
+}
+
+.btn-fb {
+  background-color: #3B5998;
+}
+
+.btn-tw {
+  background-color: #00aced;
+}
+
+.btn-instagram {
+  background-color: #e4405f;
+}
+
+.btn-gps,
+.btn-phone,
+.btn-email {
+  margin-bottom: 5px;
+  border-color: white;
+  background-color: #ffffff00;
+}
+
+.btn-floating {
+  width: 35px;
+  height: 35px;
+}

@@ -1,0 +1,21 @@
+.circle-avatar {
+  max-width: 250px;
+  width: 250px;
+  height: auto;
+  display: block;
+  padding-top: 250px;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar-occupation {
+  color: rgb(250, 69, 69);
+}
+
+.avatar-content {
+  max-width: 1300px;
+}

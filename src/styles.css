@@ -1,1 +1,116 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a,
+.white-text {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 360px) {
+  .navbar-brand.font-size {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .navbar-brand.font-size {
+    font-size: 15px;
+  }
+}
+
+.header-dark {
+  font-weight: 700;
+  color: black;
+}
+
+.header-white {
+  font-weight: 700;
+  color: white;
+}
+
+.mission-statement-container {
+  width: 100%;
+  height: auto;
+}
+
+.mission-statement-container,
+.get-involved-container,
+.calendar {
+  padding: 50px;
+}
+
+.get-involved-container,
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+}
+
+.team-header-image,
+.events-header-image {
+  position: relative;
+  width: 100%;
+}
+
+.team-header-content,
+.events-header-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.hr-slim-white {
+  height: 2px;
+  width: 10vw;
+  background-color: white;
+}
+
+.hr-slim-black {
+  height: 2px;
+  width: 10vw;
+  background-color: black;
+}
+
+@media (max-width: 767px) {
+  .dynamic-header {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .dynamic-header {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .dynamic-paragraph {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .dynamic-paragraph {
+    font-size: 1.2vw;
+  }
+}
+
+.fc-scroller {
+  overflow-x: auto !important;
+}

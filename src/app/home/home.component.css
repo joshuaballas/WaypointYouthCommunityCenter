@@ -1,0 +1,39 @@
+.get-involved-button {
+  margin-top: 25px;
+}
+
+.mission-statement {
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.meet-team-btn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ff0000b8;
+  color: white;
+}
+
+.meet-team-container {
+  position: relative;
+  width: 100%;
+}
+
+.meet-team-container .btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .meet-team-container .btn {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .meet-team-container .btn {
+    top: 85%;
+    left: 50%;
+  }
+}
