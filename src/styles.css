@@ -2,6 +2,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
 a,
 .white-text {
   color: white;
@@ -13,6 +20,10 @@ a:hover {
 
 button:hover {
   cursor: pointer;
+}
+
+.btn {
+  border-radius: 0;
 }
 
 .container-fluid {
@@ -76,13 +87,13 @@ footer {
 }
 
 .hr-slim-white {
-  height: 2px;
+  height: 1px;
   width: 10vw;
   background-color: white;
 }
 
 .hr-slim-black {
-  height: 2px;
+  height: 1px;
   width: 10vw;
   background-color: black;
 }
