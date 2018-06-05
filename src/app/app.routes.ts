@@ -7,13 +7,8 @@ import { TeamComponent } from './team/team.component';
 export const appRoutes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
-    component: HomeComponent,
-    data: { title: 'Home' }
+    pathMatch: 'full',
+    component: HomeComponent
   },
   {
     path: 'events',
