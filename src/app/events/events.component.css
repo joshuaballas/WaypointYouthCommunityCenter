@@ -4,7 +4,12 @@
   background-attachment: fixed;
   background-position: 25% 25%;
   background-size: cover;
-  background-attachment: scroll;
   filter: brightness(65%);
   height: 100%;
+}
+
+@media (max-width: 576px) {
+  #eventsHeaderImage {
+    background-attachment: scroll;
+  }
 }
