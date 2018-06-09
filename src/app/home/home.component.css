@@ -39,6 +39,7 @@
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
+  background-attachment: scroll;
   filter: brightness(65%);
   height: 100%;
 }
