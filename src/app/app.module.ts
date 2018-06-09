@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 
+import { TitleService } from '../app.services/core/utils/title.service';
+
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -27,7 +29,7 @@ import { TeamComponent } from './team/team.component';
     RouterModule.forRoot(appRoutes),
     NgbCollapseModule
   ],
-  providers: [],
+  providers: [TitleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

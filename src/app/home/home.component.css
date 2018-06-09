@@ -13,11 +13,6 @@
   color: white;
 }
 
-.meet-team-container {
-  position: relative;
-  width: 100%;
-}
-
 .meet-team-container .btn {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -36,4 +31,14 @@
     top: 85%;
     left: 50%;
   }
+}
+
+#teamHeaderImage {
+  background-image: url('../../assets/images/group-outdoor.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(65%);
+  height: 100%;
 }

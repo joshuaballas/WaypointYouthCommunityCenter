@@ -19,3 +19,13 @@
 .avatar-content {
   max-width: 1300px;
 }
+
+#teamHeaderImage {
+  background-image: url('../../assets/images/group-indoor.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(65%);
+  height: 100%;
+}

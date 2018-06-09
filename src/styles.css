@@ -72,9 +72,10 @@ footer {
 }
 
 .team-header-image,
-.events-header-image {
+.events-header-image,
+.meet-team-container {
   position: relative;
-  width: 100%;
+  height: 400px;
 }
 
 .team-header-content,

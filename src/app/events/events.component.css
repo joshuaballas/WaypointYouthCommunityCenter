@@ -1,0 +1,9 @@
+#eventsHeaderImage {
+  background-image: url('../../assets/images/group-outdoor-wall.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 25% 25%;
+  background-size: cover;
+  filter: brightness(65%);
+  height: 100%;
+}

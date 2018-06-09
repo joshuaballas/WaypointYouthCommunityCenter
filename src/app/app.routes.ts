@@ -8,7 +8,8 @@ export const appRoutes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    component: HomeComponent
+    component: HomeComponent,
+    data: { title: 'Home' }
   },
   {
     path: 'events',
