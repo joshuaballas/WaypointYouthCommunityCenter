@@ -1,9 +1,14 @@
-<!-- <section id="videoSection">
-  <img src="../../assets/images/waypoint.jpg" style="width: 100%; height: auto;">
-</section> -->
+<section id="videoSection" *ngIf="mobile">
+  <div class="video-container">
+    <video id="header-video" src="../../assets/images/header-video.mp4" loop autoplay muted oncontextmenu="return false"></video>
+    <div class="video-overlay text-center">
+      <h1 class="overlay-text text-white">Waypoint Youth & Community Center</h1>
+    </div>
+  </div>
+</section>
 
 <section id="missionStatement">
-  <div class="mission-statement-container text-center">
+  <div class="mission-statement-container text-center" style="background-color: white;">
     <h3 class="header-dark">Mission Statement</h3>
     <hr class="hr-slim-black">
     <div class="container">
