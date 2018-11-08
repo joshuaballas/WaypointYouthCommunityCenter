@@ -1,6 +1,8 @@
 <section id="videoSection" *ngIf="mobile">
   <div class="video-container">
-    <video id="header-video" src="../../assets/images/header-video.mp4" loop autoplay muted oncontextmenu="return false"></video>
+    <video id="header-video" loop autoplay muted oncontextmenu="return false">
+      <source src="../../assets/images/header-video.mp4" type="video/mp4">
+    </video>
     <div class="video-overlay text-center">
       <h1 class="overlay-text text-white">Waypoint Youth & Community Center</h1>
     </div>
