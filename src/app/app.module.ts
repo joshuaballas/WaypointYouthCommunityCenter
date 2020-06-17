@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
 import { TeamComponent } from './team/team.component';
+import { CampProgramComponent } from './camp-program/camp-program.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TeamComponent } from './team/team.component';
     FooterComponent,
     HomeComponent,
     EventsComponent,
-    TeamComponent
+    TeamComponent,
+    CampProgramComponent
   ],
   imports: [
     BrowserModule,

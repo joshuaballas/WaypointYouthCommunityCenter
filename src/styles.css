@@ -9,12 +9,12 @@ h3 {
   letter-spacing: 6px;
 }
 
-a,
+a.white-text,
 .white-text {
   color: white;
 }
 
-a:hover {
+a.white-text:hover {
   color: gray;
 }
 
@@ -53,13 +53,15 @@ button:hover {
   color: white;
 }
 
-.mission-statement-container {
+.mission-statement-container,
+.camp-program-container {
   width: 100%;
   height: auto;
 }
 
 .mission-statement-container,
 .get-involved-container,
+.camp-program-container,
 .calendar {
   padding: 50px;
 }
