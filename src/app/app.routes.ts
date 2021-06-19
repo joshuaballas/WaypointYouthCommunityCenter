@@ -22,10 +22,10 @@ export const appRoutes: Routes = [
     component: TeamComponent,
     data: { title: 'Team' }
   },
-  {
-    path: 'camp',
-    component: CampProgramComponent,
-    data: { title: 'Camp Program' }
-  },
+  // {
+  //   path: 'camp',
+  //   component: CampProgramComponent,
+  //   data: { title: 'Camp Program' }
+  // },
   { path: '**', component: HomeComponent }
 ];
